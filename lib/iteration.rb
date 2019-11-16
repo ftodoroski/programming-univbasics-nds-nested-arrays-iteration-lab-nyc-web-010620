@@ -60,7 +60,6 @@ def total_even_pairs(src)
         if (num_1 % 2) == 0 && (num_2 % 2) == 0
           sum_of_evens += (num_1 + num_2)
         end
-
       end
 
       j += 1
