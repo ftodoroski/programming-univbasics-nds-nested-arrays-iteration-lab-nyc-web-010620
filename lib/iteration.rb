@@ -4,7 +4,7 @@ def join_ingredients(src)
     j = 0
     while j < src.length
       element1 = src[i][j]
-      element2 = src[i][j + 1] 
+      element2 = src[i][(j + 1)] 
       j += 1
     end
 
