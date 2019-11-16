@@ -6,7 +6,7 @@ def join_ingredients(src)
       element1 = src[i][j]
       element2 = src[i][(j + 1)]
       return "I love #{element1} and #{element2} on my pizza"
-
+       
       j += 1
     end
 
