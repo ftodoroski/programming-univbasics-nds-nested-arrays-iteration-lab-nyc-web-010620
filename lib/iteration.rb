@@ -47,5 +47,15 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
+  i = 0
+  while i < src.length
+    j = 0
+    while j < src[i].length
+
+      j += 1
+    end
+
+    i += 1
+  end
 
 end
