@@ -8,6 +8,11 @@ def join_ingredients(src)
       ele_1 = src[i][j]
       ele_2 = src[i][j + 1]
 
+      if (j + 1) != 2
+        arr_of_str << "I love #{ele_1} and #{ele_2} on my pizza"
+
+      end
+
       j += 1
     end
 
