@@ -1,12 +1,14 @@
 def join_ingredients(src)
+  array = []
+
   i = 0
   while i < src.length
     j = 0
     while j < src.length
       element1 = src[i][j]
       element2 = src[i][(j + 1)]
-      return "I love #{element1} and #{element2} on my pizza"
-       
+      array_1 <<  "I love #{element1} and #{element2} on my pizza"
+
       j += 1
     end
 
