@@ -56,6 +56,10 @@ def total_even_pairs(src)
       ele_1 = src[i][j]
       ele_2 = src[i][(j + 1)]
 
+      if (j + 1) < src.length
+
+      end
+
       j += 1
     end
 
