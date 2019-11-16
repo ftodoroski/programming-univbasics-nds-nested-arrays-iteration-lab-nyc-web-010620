@@ -42,6 +42,8 @@ def find_greater_pair(src)
 
     i += 1
   end
+
+  largest
 end
 
 def total_even_pairs(src)
