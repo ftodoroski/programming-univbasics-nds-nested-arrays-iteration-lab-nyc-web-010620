@@ -22,7 +22,25 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
+  largest = []
 
+  i = 0
+  while i < src.length
+    current_largest = 0
+
+    j = 0
+    while j < src[i].length
+      number = src[i][j]
+
+      if current_largest < number
+        current_largest = number
+      end
+
+      j += 1
+    end
+
+    i += 1
+  end
 end
 
 def total_even_pairs(src)
