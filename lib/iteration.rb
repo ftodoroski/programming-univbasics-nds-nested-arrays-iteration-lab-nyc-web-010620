@@ -1,21 +1,18 @@
 def join_ingredients(src)
-  array = []
+  arr_of_str = []
 
   i = 0
   while i < src.length
     j = 0
-    while j < src.length
-      element1 = src[i][j]
-      element2 = src[i][(j + 1)]
-      array <<  "I love #{element1} and #{element2} on my pizza"
+    while j < src[i].length
+      ele_1 = src[i][j]
+      ele_2 = src[i][j + 1]
 
       j += 1
     end
 
     i += 1
   end
-
-  array
 end
 
 def find_greater_pair(src)
