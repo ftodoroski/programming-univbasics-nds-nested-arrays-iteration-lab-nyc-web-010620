@@ -58,6 +58,8 @@ def total_even_pairs(src)
 
       if (j + 1) < src[i].length
         if (num_1 % 2) == 0 && (num_2 % 2) == 0
+          sum += (num_1 + num_2)
+        end
 
       end
 
