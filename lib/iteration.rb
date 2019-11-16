@@ -18,6 +18,8 @@ def join_ingredients(src)
 
     i += 1
   end
+
+  arr_of_str
 end
 
 def find_greater_pair(src)
