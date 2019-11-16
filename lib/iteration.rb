@@ -38,8 +38,8 @@ def find_greater_pair(src)
 
       j += 1
     end
+    
     largest << current_largest
-
     i += 1
   end
 
