@@ -10,7 +10,6 @@ def join_ingredients(src)
 
       if (j + 1) != 2
         arr_of_str << "I love #{ele_1} and #{ele_2} on my pizza"
-
       end
 
       j += 1
